@@ -3,6 +3,8 @@
 ## Data Exploration
 Superstore sales data exploration lead to both key insights and  
 areas of concern that needed to be addressed before proceeding.  
+Some of the info collected is shown below. We will then address  
+the potentially problematic areas.
 
 ## Initial Observations While Filtering by...
 Country
@@ -10,13 +12,18 @@ Country
   - A Majority of countries with lowest sales were in Africa
   - Top 5 countries for gross $ in returns  were identical to  
     the top 5 in Sales
-Shipping Mode
-  - 
 Order Priority
   - As Order priority became higher, shipping cost inccreased with
     the exception of going from low to medium priority
-  - 
+  - 88% of items fell in to either Medium or High categories
+  - Items in the Critical Priority had a 22% higher profit margin
+    than the other 3 classes, on average
 Category & Subcategory
+  - Wide variation in shipping cost by Subcategory $3.39 for Labels  
+    and $92.76 for Tables
+  - Paper and Labels were the most profitable, with margins of 
+    19.4% and 11.9% respectively
+  - Tables were ~20% less profitable than any other Subcategory  
 
 ## Concerns
 Becoming more familiar with the data revealed two obstacles that
@@ -37,8 +44,8 @@ need to be addressed before moving forward with our analysis:
 
   Is this negative profit margin due to bad data?  
    
-    - The data seems to be good. No extreme outliers are pulling the average up  
-    and Tables tend to cost more to ship- the average cost to ship is $92.76,  
+    - The data seems to be accurate. No extreme outliers are pulling the average  
+    up and Tables tend to cost more to ship- the average cost to ship is $92.76,  
     which is over 3 times higher than the average for other categories, $29.27  
     - Info is not included on if the shipping cost is instead incurred by  
     the customer. However, even if 100% of the avg shipping cost ($92.76)  
@@ -46,11 +53,12 @@ need to be addressed before moving forward with our analysis:
     improvement from -24.2% to -13.65% for Tables. It would still be the least  
     profitable by over 9%.  
 
-  Why is such an unprofitable Subcategory allowed to continue to operate?  
+  If the data is accurate, why is such an unprofitable Subcategory allowed to continue to operate?  
   
     Tables may be a "Loss Leader", meaning they bring customer traffic to other  
-    more profitable products. For example, it might seem intuitive that customers  
-    that purchase tables also buy Chairs.  
+    (potentially more profitable) products. For example, it might seem intuitive  
+    that customers that purchase tables also buy Chairs. There is substantial  
+    evidence of this:
   
   There were 861 orders in which Tables were sold, and 3434 in which chairs were sold.  
   
