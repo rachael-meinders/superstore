@@ -3,7 +3,7 @@
 ## Data Exploration
 Superstore sales data exploration lead to both key insights and  
 areas of concern that needed to be addressed before proceeding.  
-Some of the info collected is shown below. We will then address  
+Some of the info collected is shown below. We will then investigate  
 the potentially problematic areas.
 
 ## Initial Observations While Filtering by...
@@ -30,7 +30,7 @@ Becoming more familiar with the data revealed two obstacles that
 need to be addressed before moving forward with our analysis:
 
 ***1. Low-Volume countries will skew the data and lessen our ability  
-     to forecast sales due to low order counts / less datapoints***  
+     to forecast sales***  
      
       To address the first issue we will be creating a dataset including  
       only countries with 500 orders or more, the hypothesis being this  
@@ -45,7 +45,7 @@ need to be addressed before moving forward with our analysis:
   Is this negative profit margin due to bad data?  
    
     - The data seems to be accurate. No extreme outliers are pulling the average  
-    up and Tables tend to cost more to ship- the average cost to ship is $92.76,  
+    down and Tables tend to cost more to ship- the average cost to ship is $92.76,  
     which is over 3 times higher than the average for other categories, $29.27  
     - Info is not included on if the shipping cost is instead incurred by  
     the customer. However, even if 100% of the avg shipping cost ($92.76)  
