@@ -9,4 +9,5 @@ We intend to identify highly profitable products, geographic locations, customer
 ## Approach
 Currently, we plan on heavily using Pandas, as well as MatPlotLib. Down the line, we do plan on using both supervised and unsupervised machine learning. Supervised ML would involve predicting specific items and orders that will be returned, while unsupervised ML would involve clustering the orders by something like profit. We do plan on storing this data in an SQL database.
 
-After our group decided on moving forward with the superstore sales data, the initial steps involved data cleaning and bsaic exploring of the dataset. This was done using python in jupyter notebook and eveluating the data in a pandas dataframe. 
+My section to include or not(still working on it):
+After our group decided on moving forward with the superstore sales data, the initial steps involved data cleaning and basic exploring of the dataset. This was done using python in jupyter notebook and evaluating the data in a pandas dataframe. We found the dataset to contain some interesting characteristics and features including returns
