@@ -11,13 +11,13 @@ Country
   - Sales leaders were US, Australia, France, China, Germany
   - A Majority of countries with lowest sales were in Africa
   - Top 5 countries for gross $ in returns  were identical to  
-    the top 5 in Sales
+    the top 5 in Sales  
 Order Priority
   - As Order priority became higher, shipping cost inccreased with
     the exception of going from low to medium priority
   - 88% of items fell in to either Medium or High categories
   - Items in the Critical Priority had a 22% higher profit margin
-    than the other 3 classes, on average
+    than the other 3 classes, on average  
 Category & Subcategory
   - Wide variation in shipping cost by Subcategory $3.39 for Labels  
     and $92.76 for Tables
