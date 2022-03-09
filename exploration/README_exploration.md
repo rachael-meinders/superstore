@@ -1,35 +1,41 @@
-# README
+# SuperStore Data Exploration
+This dataset contained 51,290 line items within 25728 unique orders.  
+There were 22 columns containing Sales data relating to location,  
+revenue, product info and buyer info. The three main categories of  
+product in this dataset are Furniture, Office supplies, and Technology.  
+A supplemental dataset containing a list of the products returned was  
+also included.  
 
-## Data Exploration
+## Overview
 Superstore sales data exploration lead to both key insights and  
 areas of concern that needed to be addressed before proceeding.  
 Some of the info collected is shown below. We will then investigate  
-the potentially problematic areas.
+the potentially problematic areas.  
 
 ## Initial Observations While Filtering by...
-Country
-  - Sales leaders were US, Australia, France, China, Germany
-  - A Majority of countries with lowest sales were in Africa
-  - Top 5 countries for gross $ in returns  were identical to  
+Country  
+  - Sales leaders were US, Australia, France, China, Germany  
+  - A Majority of countries with lowest sales were in Africa  
+  - Top 5 countries for gross $ in returns  were identical to   
     the top 5 in Sales  
     
-Order Priority
-  - As Order priority became higher, shipping cost inccreased with
-    the exception of going from low to medium priority
-  - 88% of items fell in to either Medium or High categories
-  - Items in the Critical Priority had a 22% higher profit margin
+Order Priority  
+  - As Order priority became higher, shipping cost inccreased with  
+    the exception of going from low to medium priority  
+  - 88% of items fell in to either Medium or High categories  
+  - Items in the Critical Priority had a 22% higher profit margin  
     than the other 3 classes, on average  
     
-Category & Subcategory
+Category & Subcategory  
   - Wide variation in shipping cost by Subcategory $3.39 for Labels  
-    and $92.76 for Tables
-  - Paper and Labels were the most profitable, with margins of 
-    19.4% and 11.9% respectively
+    and $92.76 for Tables  
+  - Paper and Labels were the most profitable, with margins of  
+    19.4% and 11.9% respectively  
   - Tables were ~20% less profitable than any other Subcategory  
 
 ## Concerns
-Becoming more familiar with the data revealed two obstacles that
-need to be addressed before moving forward with our analysis:
+Becoming more familiar with the data revealed two obstacles that  
+need to be addressed before moving forward with our analysis:  
 
 ***1. Low-Volume countries will skew the data and lessen our ability  
      to forecast sales***  
@@ -60,7 +66,7 @@ need to be addressed before moving forward with our analysis:
     Tables may be a "Loss Leader", meaning they bring customer traffic to other  
     (potentially more profitable) products. For example, it might seem intuitive  
     that customers that purchase tables also buy Chairs. There is substantial  
-    evidence of this:
+    evidence of this:  
   
   There were 861 orders in which Tables were sold, and 3434 in which chairs were sold.  
   
