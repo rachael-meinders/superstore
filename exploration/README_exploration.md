@@ -79,7 +79,7 @@ need to be addressed before moving forward with our analysis:
   
   ![image](https://user-images.githubusercontent.com/91306342/157397361-0b864fd4-2dcf-4710-a8f4-efecaa130fbc.png)  
 
-Of the 25728 TOTAL Order in our dataframe, 3434 contained chairs (13%)  
+Of the 25728 TOTAL Orders in our dataframe, 3434 contained chairs (13%)  
 Of the 861 orders containing Tables, 322 of them contained chairs (37%)  
 ***People who bought tables were almost 3 times more likely to buy chairs***  
   
