@@ -23,11 +23,4 @@ Logistic and Linear regression was performed with sales, profit, and shipping co
 
 Follow this link to learn more about our [Logistic and Linear Regression](https://github.com/rachael-meinders/superstore/blob/main/linear_logistic_regression/README_regression.md)
 
-
-## Hypothesis
-We intend to identify highly profitable products, geographic locations, customers, market segments, and timeframes. We also want to identify the products and customers that result in high return rates in effort to reduce associated expenses.
-## Approach
-Currently, we plan on heavily using Pandas, as well as MatPlotLib. Down the line, we do plan on using both supervised and unsupervised machine learning. Supervised ML would involve predicting specific items and orders that will be returned, while unsupervised ML would involve clustering the orders by something like profit. We do plan on storing this data in an SQL database.
-
-
-
+## Results
