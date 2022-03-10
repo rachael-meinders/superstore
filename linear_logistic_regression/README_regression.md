@@ -38,7 +38,7 @@ The lack of success for profit likely is due to the lack of cost information. Wh
 #### Shipping Costs
 While order priority, ship mode, and region were somewhat reliable in predicting shipping costs, I think that including encoded countries in future regression would increase the accuracy score. Each country is unique in its customs processes and duty fees that may be incurred. Furthemore, shipping something to Egypt and to South Africa is a difference of over 3,000 miles. Region alone cannot accurately captrue this information for prediction.
 #### Sales 
-I believe that sales was the most sucessful simply because we have the most data directly surronding that piece of data - item ordered, quantity, discount, order priority.
+We believe that sales was the most successful simply because we have the most data directly surronding that piece of data - item ordered, quantity, discount, order priority.
 
 ## Logistic Regression
 We performed logistic regression to determine if an order was returned.
